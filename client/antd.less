@@ -1,1 +1,5 @@
 @import "node_modules/antd-mobile/dist/antd-mobile.less";
+
+// i want node_modules/antd-mobile/dist/antd-mobile.less proccessed into postcss-pxtorem plugin but not want to be proccessed into css-modules
+
+if i config  passthroughPaths: [ "client/antd.less" ] then node_modules/antd-mobile/dist/antd-mobile.less will not be proccessed into postcss-pxtorem plugin.
