@@ -5,12 +5,13 @@ import { Meteor } from 'meteor/meteor';
 import './antd.less';
 import styles from './main.less';
 import {Button, } from 'antd-mobile';
-
+import Test from '../imports/components/Test/index.js';
 console.log(styles);
 
 const Hello = () => {
 	return (
 		<div>
+			<Test />
 			<Button type="primary"> antd-mobile </Button>
 			<div className={styles['font-50']}>font-50</div>
 			<div className="g-font-50">g-font-50</div>
