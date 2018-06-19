@@ -5,6 +5,8 @@
     "start": "meteor run"
   },
   "dependencies": {
+    "antd-mobile": "^2.2.0",
+    "indexof": "0.0.1",
     "@babel/runtime": "^7.0.0-beta.42",
     "less": "^2.7.3",
     "meteor-node-stubs": "^0.3.2",
@@ -30,12 +32,11 @@
         }
       },
       "postcss-simple-vars": {
-        "inlineOptions" : {}
+        "inlineOptions": {}
       },
       "postcss-modules-local-by-default": {},
       "postcss-modules-extract-imports": {},
       "postcss-modules-scope": {}
-      
     },
     "extensions": [
       "less",
@@ -45,17 +46,12 @@
       "less"
     ],
     "passthroughPaths": [
-      
+      "client/antd.less"
     ],
-    "globalVariables": [
-
-    ],
-    "includePaths": [
-      
-    ],
+    "globalVariables": [],
+    "includePaths": [],
     "ignorePaths": [
       "node_modules"
     ]
-    
   }
 }
