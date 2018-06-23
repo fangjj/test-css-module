@@ -2,7 +2,7 @@ import {render } from 'react-dom';
 import React from 'react';
 
 import { Meteor } from 'meteor/meteor';
-import './antd.less';
+import './global.less';
 import styles from './main.less';
 import {Button, } from 'antd-mobile';
 import Test from '../imports/components/Test/index.js';

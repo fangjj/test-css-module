@@ -61,7 +61,7 @@
       "less"
     ],
     "passthroughPaths": [
-      "client/antd.less"
+      "client/global.less"
     ],
     "globalVariables": [],
     "includePaths": [],
